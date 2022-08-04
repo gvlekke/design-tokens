@@ -1,0 +1,18 @@
+{
+  "source": [
+    "./design-tokens.tokens.json"
+  ],
+  "platforms": {
+    "scss": {
+      "transformGroup": "scss",
+      "prefix": "donna-ui",
+      "buildPath": "styles/",
+      "files": [
+        {
+          "destination": "_design-tokens.scss",
+          "format": "scss/variables"
+        }
+      ]
+    }
+  }
+}

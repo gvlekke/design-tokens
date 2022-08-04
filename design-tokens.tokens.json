@@ -1,0 +1,214 @@
+{
+  "color": {
+    "color": {
+      "white": {
+        "description": "PTI - White color - #FFFFFF",
+        "type": "color",
+        "value": "#ffffffff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:c9a78bbdb7e26bf3c0d02a5d13379b1a16b182f4,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "black": {
+        "description": "PTI - Black color - #000000",
+        "type": "color",
+        "value": "#000000ff",
+        "blendMode": "normal",
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:c81b4a33ad2506b45938529cadb6bc24b8a5f540,",
+            "exportKey": "color"
+          }
+        }
+      },
+      "background": {
+        "light": {
+          "description": "PTI - Background - Light",
+          "type": "color",
+          "value": "#ffffffff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:180706611db35f6055c1884171d827d08f2fe619,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "dark": {
+          "description": "PTI - Background - Dark",
+          "type": "color",
+          "value": "#000000ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:fba96a1753b50f1cc4dde0dd12f0a064742d42fe,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "button": {
+          "light": {
+            "description": "PTI - Background - Button - Light",
+            "type": "color",
+            "value": "#ffffffff",
+            "blendMode": "normal",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:4bcb9e3a4d465370ece2b6ad388918a305be7b9e,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "dark": {
+            "description": "PTI - Background - Button - Dark",
+            "type": "color",
+            "value": "#000000ff",
+            "blendMode": "normal",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:f8c9e197911e476696ea7842d90f36977fdd62dd,",
+                "exportKey": "color"
+              }
+            }
+          }
+        }
+      },
+      "border": {
+        "light": {
+          "description": "PTI - Bordercolor - Light",
+          "type": "color",
+          "value": "#ffffffff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:5a41edec1ee3b87e58f458f3d39afb2900114127,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "dark": {
+          "description": "PTI - Bordercolor - Dark",
+          "type": "color",
+          "value": "#000000ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:024e1c9b1f011756fefff9a034e1ccb7477414f0,",
+              "exportKey": "color"
+            }
+          }
+        }
+      }
+    },
+    "pti": {
+      "color": {
+        "white": {
+          "description": "PTI - White color - #FFFFFF",
+          "type": "color",
+          "value": "#ffffffff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:bbe021d7676a8cfea099e480b619624621f71275,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "black": {
+          "description": "PTI - Black color - #000000",
+          "type": "color",
+          "value": "#000000ff",
+          "blendMode": "normal",
+          "extensions": {
+            "org.lukasoppermann.figmaDesignTokens": {
+              "styleId": "S:bf0575a8fdb073e2fdb0064b1c9d4204e8abfef2,",
+              "exportKey": "color"
+            }
+          }
+        },
+        "background": {
+          "light": {
+            "description": "PTI - Background - Light",
+            "type": "color",
+            "value": "#ffffffff",
+            "blendMode": "normal",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:44eb2e176a6a481ffa7c184eaf9ec1d59faa63d8,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "dark": {
+            "description": "PTI - Background - Dark",
+            "type": "color",
+            "value": "#000000ff",
+            "blendMode": "normal",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:fe98e41b113c9d244847ce7e4ce241b7b23e3259,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "button": {
+            "light": {
+              "description": "PTI - Background - Button - Light",
+              "type": "color",
+              "value": "#ffffffff",
+              "blendMode": "normal",
+              "extensions": {
+                "org.lukasoppermann.figmaDesignTokens": {
+                  "styleId": "S:d33f5d774401d8aec5a5f2a90fa5655f6c3a7c0f,",
+                  "exportKey": "color"
+                }
+              }
+            },
+            "dark": {
+              "description": "PTI - Background - Button - Dark",
+              "type": "color",
+              "value": "#000000ff",
+              "blendMode": "normal",
+              "extensions": {
+                "org.lukasoppermann.figmaDesignTokens": {
+                  "styleId": "S:79f52a0e2057da51a13af40bcf92f227f9dce657,",
+                  "exportKey": "color"
+                }
+              }
+            }
+          }
+        },
+        "border": {
+          "light": {
+            "description": "PTI - Bordercolor - Light",
+            "type": "color",
+            "value": "#ffffffff",
+            "blendMode": "normal",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:30bbfddd9b3fb83bf40e98c81cbb0cd515f9c2fe,",
+                "exportKey": "color"
+              }
+            }
+          },
+          "dark": {
+            "description": "PTI - Bordercolor - Dark",
+            "type": "color",
+            "value": "#000000ff",
+            "blendMode": "normal",
+            "extensions": {
+              "org.lukasoppermann.figmaDesignTokens": {
+                "styleId": "S:41e882062521b7ded9ba9ead8ea5b3312c9315fd,",
+                "exportKey": "color"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
