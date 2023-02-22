@@ -4,10 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "design-tokens": "style-dictionary build --config design-tokens.config.json --platform scss",
+    "design-tokens": "ts-node style-dictionary.ts --expandTypography=true --expandShadow=true",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "style-dictionary": "^3.7.1"
+    "@types/ejs": "^3.1.2",
+    "@types/lodash": "^4.14.191",
+    "@types/prettier": "^2.7.2",
+    "ejs": "^3.1.8",
+    "lodash": "^4.17.21",
+    "prettier": "^2.8.4",
+    "style-dictionary": "^3.7.2",
+    "token-transformer": "^0.0.30",
+    "ts-node": "^10.9.1"
   }
 }

@@ -1,6 +1,6 @@
 {
   "source": [
-    "./design-tokens.tokens.json"
+    "./DesignSystemTokensType.json"
   ],
   "platforms": {
     "scss": {

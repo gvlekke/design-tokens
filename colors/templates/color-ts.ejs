@@ -1,0 +1,8 @@
+<%= header %>
+import type { ColorTokens } from './types/colors'
+
+export const colorTokens: ColorTokens = {
+<%_ for (const {name, value, comment} of tokens) { _%>
+  <%= name %>: '<%= value %>', <% if (comment) { %> // <%= comment %> <%_ } _%>
+<%_ } _%>
+}

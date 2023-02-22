@@ -1,0 +1,7 @@
+<%= header %>
+
+export interface ColorTokens {
+<%_ for (const {name, value, comment} of tokens) { _%>
+  <%= name %>: string
+<%_ } _%>
+}
