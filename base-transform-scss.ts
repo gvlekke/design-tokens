@@ -8,7 +8,10 @@ export default {
       format: colorScssFormatterName,
       destination: "colors.scss",
       filter: ColorFilterName,
+    },
+    {
+      destination: "colorssss.scss",
+      format: 'scss/variables',
     }
   ]
 }
-

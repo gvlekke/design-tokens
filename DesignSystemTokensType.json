@@ -1,0 +1,271 @@
+{
+  "DonnaPTI": {
+    "size": {
+      "font": {
+        "small": {
+          "value": 1,
+          "comment": "medium size"
+        }
+      }
+    },
+    "PTI": {
+      "Color": {
+        "White": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "PTI - White color - #FFFFFF | This is the base color"
+        },
+        "Black": {
+          "value": "#000000",
+          "type": "color",
+          "description": "PTI - Black color - #000000 | this is the base dark color"
+        },
+        "Blue": {
+          "value": "#1976D2",
+          "type": "color",
+          "description": "PTI - Blue - #1976D2"
+        },
+        "Background": {
+          "Light": {
+            "value": "{PTI.Color.White}",
+            "type": "color",
+            "description": "PTI - Background - Light"
+          },
+          "Dark": {
+            "value": "{PTI.Color.Black}",
+            "type": "color",
+            "description": "PTI - Background - Dark"
+          },
+          "Button": {
+            "Light": {
+              "value": "{PTI.Color.Background.Light}",
+              "type": "color",
+              "description": "PTI - Background - Button - Light"
+            },
+            "Dark": {
+              "value": "{PTI.Color.Background.Dark}",
+              "type": "color",
+              "description": "PTI - Background - Button - Dark"
+            },
+            "Active": {
+              "value": "{PTI.Color.Blue}",
+              "type": "color"
+            }
+          }
+        },
+        "Border": {
+          "Light": {
+            "value": "{PTI.Color.White}",
+            "type": "color",
+            "description": "PTI - Bordercolor - Light"
+          },
+          "Dark": {
+            "value": "{PTI.Color.Black}",
+            "type": "color",
+            "description": "PTI - Bordercolor - Dark"
+          },
+          "Active": {
+            "value": "{PTI.Color.Blue}",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Light": {
+            "value": "{PTI.Color.White}",
+            "type": "color"
+          },
+          "Dark": {
+            "value": "{PTI.Color.Black}",
+            "type": "color"
+          },
+          "Active": {
+            "value": "{PTI.Color.Blue}",
+            "type": "color"
+          }
+        }
+      },
+      "Typography": {
+        "Heading": {
+          "value": {
+            "fontFamily": "{PTI.Typography.Anatomy.fontFamilies.MainType}",
+            "fontWeight": "400",
+            "lineHeight": "100",
+            "fontSize": "64",
+            "letterSpacing": "{PTI.Typography.Anatomy.letterSpacing.0}",
+            "paragraphSpacing": "{PTI.Typography.Anatomy.paragraphSpacing.0}",
+            "textCase": "{PTI.Utility.Size.Small}",
+            "textDecoration": "{PTI.Typography.Anatomy.textDecoration.none}"
+          },
+          "type": "typography"
+        },
+        "Anatomy": {
+          "fontFamilies": {
+            "MainType": {
+              "value": "Roboto",
+              "type": "fontFamilies"
+            }
+          },
+          "lineHeights": {
+            "Large": {
+              "value": "{PTI.Utility.Size.Medium} * 3.5",
+              "type": "lineHeights",
+              "description": "her comes a discription"
+            },
+            "Small": {
+              "value": "{PTI.Utility.Size.Medium} * 12",
+              "type": "lineHeights",
+              "description": "12 px height"
+            }
+          },
+          "fontWeights": {
+            "Normal": {
+              "value": "Regular",
+              "type": "fontWeights"
+            },
+            "Bold": {
+              "value": "Bold",
+              "type": "fontWeights",
+              "description": "Bold text"
+            }
+          },
+          "fontSize": {
+            "Header": {
+              "value": "36",
+              "type": "fontSizes"
+            },
+            "Normal": {
+              "value": "{PTI.Utility.Size.Medium}  * 12",
+              "type": "fontSizes",
+              "description": "Normal font size"
+            }
+          },
+          "letterSpacing": {
+            "0": {
+              "value": "{PTI.Utility.Size.Medium}",
+              "type": "letterSpacing",
+              "description": "😄"
+            },
+            "xsmall": {
+              "value": "{PTI.Utility.Size.Small} -10",
+              "type": "letterSpacing"
+            }
+          },
+          "paragraphSpacing": {
+            "0": {
+              "value": "0",
+              "type": "paragraphSpacing"
+            }
+          },
+          "textDecoration": {
+            "none": {
+              "value": "none",
+              "type": "textDecoration"
+            },
+            "Underline": {
+              "value": "Underline",
+              "type": "textDecoration",
+              "description": "streepje eronder"
+            }
+          }
+        },
+        "Body": {
+          "value": {
+            "fontFamily": "{PTI.Typography.Anatomy.fontFamilies.MainType}",
+            "fontWeight": "{PTI.Typography.Anatomy.fontWeights.Bold}",
+            "lineHeight": "{PTI.Typography.Anatomy.lineHeights.Small}",
+            "fontSize": "12",
+            "letterSpacing": "{PTI.Typography.Anatomy.letterSpacing.0}",
+            "paragraphSpacing": "{PTI.Typography.Anatomy.paragraphSpacing.0}",
+            "textDecoration": "{PTI.Typography.Anatomy.textDecoration.none}"
+          },
+          "type": "typography",
+          "description": "Body typhography"
+        }
+      },
+      "Utility": {
+        "Spacing": {
+          "Xsmall": {
+            "value": "4",
+            "type": "spacing",
+            "description": "4 pixels space"
+          },
+          "Small": {
+            "value": "8",
+            "type": "spacing",
+            "description": "8PX space"
+          },
+          "Medium": {
+            "value": "12",
+            "type": "spacing",
+            "description": "12 pixels space"
+          }
+        },
+        "Opacity": {
+          "None": {
+            "value": "100%",
+            "type": "opacity",
+            "description": "100% opacity"
+          },
+          "Clear": {
+            "value": "10%",
+            "type": "opacity",
+            "description": "80%opacity"
+          },
+          "Medium": {
+            "value": "50%",
+            "type": "opacity",
+            "description": "50% opactiy"
+          }
+        },
+        "Border": {
+          "XSmall": {
+            "value": "1",
+            "type": "borderWidth",
+            "description": "1px border width"
+          },
+          "Large": {
+            "value": "5",
+            "type": "borderWidth",
+            "description": "5px border width"
+          }
+        },
+        "Size": {
+          "Small": {
+            "value": "0.75",
+            "type": "other",
+            "description": "the small size of the font"
+          },
+          "Medium": {
+            "value": "1",
+            "type": "other",
+            "description": "the medium size of the font"
+          },
+          "Large": {
+            "value": "{PTI.Utility.Size.Medium} * 2",
+            "type": "other",
+            "description": "the large size of the size"
+          },
+          "Base": {
+            "value": "{PTI.Utility.Size.Medium}",
+            "type": "other",
+            "description": "the base size"
+          }
+        },
+        "Dropshadow": {
+          "Small": {
+            "value": {
+              "x": "1",
+              "y": "2",
+              "blur": "2",
+              "spread": "2",
+              "color": "#000000",
+              "type": "dropShadow"
+            },
+            "type": "boxShadow",
+            "description": "Smal drop shadow"
+          }
+        }
+      }
+    }
+  }
+}
